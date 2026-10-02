@@ -1,0 +1,12 @@
+[project]
+name = "pmail"
+version = "0.1.0"
+description = "CLI wrapper around protonmail-api-client for listing and reading Proton Mail"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "protonmail-api-client",
+]
+
+[tool.uv]
+package = false
